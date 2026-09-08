@@ -9,6 +9,13 @@ from domain.entities.entity_memory import (
     Memory, 
     MemoryKind
 )
+from domain.entities.entity_weather_forecast import (
+    DailyWeatherForecast,
+    WeatherCondition,
+    WeatherConditions,
+    WeatherForecast,
+    WeatherLocation,
+)
 
 
 __all__ = (
@@ -17,4 +24,9 @@ __all__ = (
     "ConversationMessageRole",
     "Memory",
     "MemoryKind",
+    "DailyWeatherForecast",
+    "WeatherCondition",
+    "WeatherConditions",
+    "WeatherForecast",
+    "WeatherLocation",
 )
